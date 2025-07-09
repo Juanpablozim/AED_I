@@ -1,4 +1,8 @@
 void menuED(int edNum);
+void executarExercicio(int edNum, int op);
+
+#include "dispatcher.hpp"
+
 /** ==========================================================
  *  Funcao que controla e exibe o menu principal do programa
  *  ========================================================== */
@@ -58,13 +62,10 @@ void menuPrincipal()
  * ==========================================================*/
 void menuED(int edNum)
 {
-    // Declaracao de variaveis para entrada e opcao.
     std::string entrada;
     int op = -1;
 
-    do
-    {
-        // Limpa a tela e exibe o cabecalho do menu.
+    do {
         clrscr();
         if (edNum < 10)
             printf("(ED0%d)\n", edNum);
@@ -72,40 +73,42 @@ void menuED(int edNum)
             printf("(ED%d)\n", edNum);
         printJPZ("menus/EDs");
 
-        // Le e processa a entrada do usuario.
         std::getline(std::cin, entrada);
-        try
-        {
+        try {
             op = std::stoi(entrada);
-        }
-        catch (const std::exception &e)
-        {
+        } catch (const std::exception &e) {
             op = -1;
         }
 
-        if ((op >= 1) && (op <= 12))
-        { // Chaves para criar um escopo local.
+        // A logica aqui pode ser melhorada para usar a classe ED,
+        // mas mantendo a simplicidade do seu codigo atual:
+        if ((op >= 1) && (op <= 12)) { // Limite de exercicios (pode ser dinamico)
             clrscr();
 
-            // Monta o caminho dinamico para o arquivo do exercicio.
-            // Ex: "EDs/5/1" para o exercicio 1 do ED05.
-            std::string caminhoExercicio = "EDs/" + std::to_string(edNum) + "/" + std::to_string(op);
+            // Mostra o enunciado do exercicio.
+            std::string caminhoEnunciado = "EDs/" + std::to_string(edNum) + "/" + std::to_string(op);
+            bool sucesso = printJPZ(caminhoEnunciado);
+            pauseScr();
 
-            // Tenta imprimir o arquivo do exercicio e verifica o resultado.
-            bool sucesso = printJPZ(caminhoExercicio);
+            // Se o enunciado foi encontrado, executa o exercicio.
+            if (sucesso) {
+                printf("\n----------------------------------------\n");
+                printf("Executando o codigo do exercicio:\n");
+                
+                // --- CHAMADA PARA O DESPACHANTE ---
+                executarExercicio(edNum, op);
+                // ------------------------------------
 
-            // Se a funcao retornou 'false' (nao encontrou o arquivo), imprime o 404.
-            if (!sucesso)
-            {
+            } else {
+                // Se o enunciado nao foi encontrado, mostra o 404.
                 printJPZ("404");
             }
 
-            // Pausa a tela independentemente do resultado.
+            // Pausa a tela para o usuario ver o resultado.
             pauseScr();
         }
 
     } while (op != 0);
 
-    // Mensagem ao sair do menu do ED
     printf("\nVoltando ao menu principal...\n\n");
 }
