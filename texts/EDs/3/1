@@ -1,0 +1,5 @@
+01.) Incluir um método (Exemplo0311) para:
+- ler uma palavra do teclado;
+- mostrar as letras maiúsculas.
+ DICA: Definir um teste para determinar se um caractere é letra maiúscula.
+Exemplo: palavra = "PaLaVrA"

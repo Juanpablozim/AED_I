@@ -1,26 +1,46 @@
 /**
+ * Define
+ */
+void setPT_BR()
+{
+// --- Bloco de configuracao de localizacao multiplataforma ---
+// Compilacao condicional baseada no sistema operacional.
+#if defined(_WIN32) || defined(_WIN64)
+    // Define a localizacao para portugues no Windows.
+    // Isso ajuda o printf a entender corretamente os caracteres.
+    setlocale(LC_ALL, "Portuguese");
+#elif defined(__linux__) || defined(__APPLE__) || defined(__unix__)
+    // Define a localizacao para portugues do Brasil com UTF-8 em sistemas Unix-like.
+    // E o padrao para a maioria das distribuicoes Linux e para o macOS.
+    setlocale(LC_ALL, "pt_BR.UTF-8");
+#endif
+// --- Fim do bloco de configuracao ---
+}
+
+/**
  * Limpa a tela do console.
-*/
-void clrscr ( void )
+ */
+void clrscr(void)
 {
 // Compilacao condicional baseada no sistema operacional.
 #if defined(_WIN32) || defined(_WIN64) || defined(__WINDOWS__)
-    system ( "cls" ); // Comando para Windows. OBS: system() nao e recomendado.
+    system("cls"); // Comando para Windows. OBS: system() nao e recomendado.
 #elif defined(__linux__)
-    system ( "clear" ); // Comando para Linux.
+    system("clear"); // Comando para Linux.
 #elif defined(__APPLE__) && defined(__MACH__)
-    system ( "clear" ); // Comando para macOS.
+    system("clear"); // Comando para macOS.
 #elif defined(unix) || defined(__unix__) || defined(__unix)
-    system ( "clear" ); // Comando para outros sistemas Unix.
+    system("clear"); // Comando para outros sistemas Unix.
 #else
-    #error Unknown_OS // Erro de compilacao se o SO for desconhecido.
+#error Unknown_OS // Erro de compilacao se o SO for desconhecido.
 #endif
 } // retirada de: "professor/2022-2_aed1_exemplos/io.hpp" (IO_clrscr)
 
 /**
  * Pausa a execucao e depois limpa a tela.
-*/
-void pauseScr () {
+ */
+void pauseScr()
+{
     // Compilacao condicional baseada no sistema operacional.
 #if defined(_WIN32) || defined(_WIN64) || defined(__WINDOWS__)
     // Comando de pausa especifico para Windows.
@@ -40,11 +60,13 @@ void pauseScr () {
 
 /**
  * Limpa o buffer de entrada do teclado (stdin).
-*/
-void limpaBuffer () {
+ */
+void limpaBuffer()
+{
     // Variavel para armazenar cada caractere lido.
     int c;
 
     // Consome caracteres do buffer ate encontrar um '\n' ou o fim do arquivo (EOF).
-    while ((c = getchar()) != '\n' && c != EOF);
+    while ((c = getchar()) != '\n' && c != EOF)
+        ;
 }

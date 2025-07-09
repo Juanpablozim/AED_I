@@ -1,0 +1,7 @@
+07.) Incluir um método (Exemplo0317) para:
+- ler dois valores inteiros (a,b), limites para definirem um intervalo [a:b];
+- ler uma quantidade (n) de valores inteiros a serem testados;
+- repetir a leitura de outros tantos valores, quantos os indicados pela quantidade, um (x) por vez;
+- contar e mostrar quantos dentre esses valores lidos (x)
+ os que forem múltiplos de 3, e pertençam ao intervalo [a:b].
+Exemplo: [ 30: 70 ], e n = 7, com { 10, 20, 30, 42, 51, 60, 84 }

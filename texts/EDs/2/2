@@ -1,0 +1,4 @@
+02.) Incluir um procedimento (Exemplo0212) para:
+- ler um valor inteiro do teclado e
+- dizer se é par e menor que -25, ou ímpar e maior que 25.
+Exemplos: { -60, -33, 0, 13, 26, 39 }

@@ -1,0 +1,5 @@
+01.) Incluir um procedimento (Exemplo0211) para:
+- ler um valor inteiro do teclado e
+- dizer se é par ou ímpar.
+ DICA: Considerar o zero como par.
+Exemplos: { -6, -3, 0, 3, 6, 9 }

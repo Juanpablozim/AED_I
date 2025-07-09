@@ -1,0 +1,4 @@
+06.) Incluir um método (Exemplo0316) para:
+- ler uma cadeia de caracteres do teclado;
+- contar e mostrar tudo o que não for dígito e também não for letra.
+Exemplo: palavra = "P4LaVr@O!"

@@ -1,0 +1,4 @@
+10.) Incluir um procedimento (Exemplo0220) para:
+- ler três valores reais do teclado e
+ dizer se o primeiro não está entre os outros dois, quando todos forem diferentes entre si.
+Exemplos: { (0.5, 1.5, 1.8), (3.6, 4.5, 2.4), (6.3, 7.2, 6.0), (9.8, 8.9, 8.9) }

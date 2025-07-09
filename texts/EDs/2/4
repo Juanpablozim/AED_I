@@ -1,0 +1,4 @@
+04.) Incluir um procedimento (Exemplo0214) para:
+- ler um valor inteiro do teclado e
+- dizer se pertence ao intervalo fechado entre [15:50].
+Exemplos: { 5, 15, 30, 45, 50, 60 }

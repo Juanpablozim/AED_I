@@ -1,0 +1,4 @@
+E2.) Incluir um método (Exemplo03E2) para:
+- ler uma cadeia de caracteres do teclado;
+- dizer se a sequência contém apenas símbolos que não são letras.
+Exemplo: sequência = "4@0!1#"

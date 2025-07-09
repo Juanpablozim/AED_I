@@ -1,0 +1,4 @@
+E1.) Incluir um procedimento (Exemplo02E1) para:
+- ler três valores literais (caracteres) do teclado e
+ dizer se o primeiro valor lido está entre os outros dois, ou se é igual a um deles.
+Exemplos: { ('a','e','c'), ('e','a','c'), ('a','c','e'), ('e','c','a'), ('a','e','a') }

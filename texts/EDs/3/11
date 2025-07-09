@@ -1,0 +1,7 @@
+E1.) Incluir um método (Exemplo03E1) para:
+- ler uma linha do teclado;
+- separar em outra cadeia de caracteres e mostrar
+ todos os símbolos não alfanuméricos (letras ou dígitos) na cadeia de caracteres.
+ DICA: A leitura de uma linha inteira, incluindo espaços em branco,
+ poderá ser feita por meio de IO_readln( "_" ), ou gets( ), embora menos recomendado.
+Exemplo: sequência = "P4LaVr@O! & pAl4vR1n#a"

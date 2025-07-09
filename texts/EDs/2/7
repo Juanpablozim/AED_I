@@ -1,0 +1,4 @@
+07.) Incluir um procedimento (Exemplo0217) para:
+- ler dois valores inteiros do teclado e
+ dizer se o primeiro é par e negativo, e se o segundo é ímpar e positivo.
+Exemplos: { (-5, -15), (-30, 45), (60, 72), (-89, -98) }

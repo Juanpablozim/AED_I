@@ -41,14 +41,13 @@ void executarExercicio(int edNum, int op) {
             // } else {
             //     printf("\nExercicio invalido para a ED02.\n");
             // }
-            printf("\nLogica para ED02 ainda nao implementada.\n");
+            printJPZ("404");
             break;
         }
-        
-        // Adicione os outros 'case' para as EDs de 3 a 14 aqui.
 
         default:
-            printf("\nED desconhecida.\n");
+            // Se o exercicio nao foi encontrado, mostra o 404.
+            printJPZ("404");
             break;
     }
 }

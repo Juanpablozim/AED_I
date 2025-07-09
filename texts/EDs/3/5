@@ -1,0 +1,4 @@
+05.) Incluir um método (Exemplo0315) para:
+- ler uma cadeia de caracteres do teclado;
+- contar e mostrar todos os dígitos, percorrendo do fim para o início da cadeia de caracteres.
+Exemplo: palavra = "P4LaVr@1"

@@ -1,0 +1,6 @@
+E2.) Incluir um procedimento (Exemplo02E2) para:
+- ler três valores literais (caracteres) do teclado e
+ dizer se o primeiro valor lido está fora do intervalo definido pelos outros dois,
+ se esses forem diferentes entre si.
+ OBS.: Notar que não há garantias de ser o segundo menor que o terceiro.
+Exemplos: { ('a','e','c'), ('e','a','c'), ('a','c','e'), ('e','c','a'), ('a','e','a') }

@@ -1,0 +1,4 @@
+08.) Incluir um procedimento (Exemplo0218) para:
+- ler dois valores reais do teclado e
+ dizer se o segundo é menor, igual ou maior que o primeiro.
+Exemplos: { (0.5, 1.5), (3.0, 3.0), (-5.5, 6.4), (7.8, -8.7) }
