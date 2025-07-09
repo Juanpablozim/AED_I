@@ -1,0 +1,7 @@
+01.) Fazer um programa (Exemplo0111) para:
+- definir e ler um valor inteiro do teclado;
+- supor que esse valor represente o lado de um quadrado,
+ calcular e mostrar sete vezes a área do mesmo.
+ DICA: Usar constantes reais em expressões que envolvam valores reais.
+
+ Exemplo: valor = 5

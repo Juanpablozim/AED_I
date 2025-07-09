@@ -1,0 +1,6 @@
+05.) Fazer um programa (Exemplo0115) para:
+- definir e ler dois valores reais do teclado;
+- supor que esses dois valores representem base e altura de um triângulo,
+ calcular e mostrar a área de um triângulo com o dobro da altura do mesmo.
+ DICA: Usar constantes reais em expressões que envolvam valores reais.
+Exemplo: valores = 3 e 5

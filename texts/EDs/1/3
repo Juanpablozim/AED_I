@@ -1,0 +1,6 @@
+03.) Fazer um programa (Exemplo0113) para:
+- definir e ler dois valores inteiros do teclado;
+- supor que esses dois valores representem lados de um retângulo,
+ calcular e mostrar três vezes a área do mesmo.
+ DICA: Usar constantes reais em expressões que envolvam valores reais.
+Exemplo: valores = 3 e 5

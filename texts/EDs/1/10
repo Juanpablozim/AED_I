@@ -1,0 +1,6 @@
+10.) Fazer um programa (Exemplo0120) para:
+- definir e ler um valor real do teclado;
+- supor que esse valor represente o raio de uma esfera,
+ calcular e mostrar o volume de uma esfera com três quintos do raio.
+ DICA: Usar constantes reais em expressões que envolvam valores reais.
+Exemplo: valor = 5.0

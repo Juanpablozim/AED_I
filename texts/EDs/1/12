@@ -1,0 +1,6 @@
+E2.) Fazer um programa (Exemplo01E2) para:
+- definir e ler um valor real do teclado;
+- supor que esse valor represente o volume de uma esfera;
+- calcular e mostrar o raio de três oitavos do volume da esfera e a área de sua superfície.
+ DICA: Usar constantes reais em expressões que envolvam valores reais.
+Exemplo: valor = 5.0

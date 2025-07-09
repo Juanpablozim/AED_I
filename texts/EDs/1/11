@@ -1,0 +1,5 @@
+E1.) Fazer um programa (Exemplo01E1) para:
+- definir e ler um valor real do teclado;
+- supor que esse valor informe a área de uma circunferência,
+- calcular e mostrar o raio um quarto dessa área.
+Exemplo: valor = 5.0

@@ -1,0 +1,5 @@
+02.) Fazer um programa (Exemplo0112) para:
+- definir e ler um valor inteiro do teclado;
+- supor que esse valor represente o lado de um quadrado,
+ calcular e mostrar a área e o perímetro de um quadrado com a metade do tamanho do lado.
+Exemplo: valor = 5

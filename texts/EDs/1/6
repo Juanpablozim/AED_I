@@ -1,0 +1,6 @@
+06.) Fazer um programa (Exemplo0116) para:
+- definir e ler um valor real do teclado;
+- supor que esse valor represente o lado de um triângulo equilátero,
+ calcular e mostrar a altura, área e o perímetro do triângulo com um sexto do lado.
+ DICA: Usar constantes reais em expressões que envolvam valores reais.
+Exemplo: valor = 5.0

@@ -1,0 +1,6 @@
+09.) Fazer um programa (Exemplo0119) para:
+- definir e ler um valor real do teclado;
+- supor que esse valor represente o raio de um círculo,
+ calcular e mostrar a área de um círculo com metade do raio.
+ DICA: Na biblioteca <math.h> há definição da constante equivalente a PI (M_PI).
+Exemplo: valor = 5.0

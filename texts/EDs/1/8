@@ -1,0 +1,6 @@
+08.) Fazer um programa (Exemplo0118) para:
+- definir e ler três valores reais do teclado;
+- supor que esses valores correspondam ao comprimento, à largura e à altura
+ de um paralelepípedo, respectivamente,
+- calcular e mostrar o volume do sólido com um quinto desses valores.
+Exemplo: valores = 3.0, 4.0 e 5.0
