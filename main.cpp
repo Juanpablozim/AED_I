@@ -1,5 +1,5 @@
-#include "defines.hpp"
-#include "imports.hpp"
+#include "head/defines.hpp"
+#include "head/imports.hpp"
 #include <locale.h>
 
 int main (){
