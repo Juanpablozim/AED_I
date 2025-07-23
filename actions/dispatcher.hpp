@@ -1,5 +1,5 @@
-// Coloque as declaracoes dos arquivos .h dos seus exercicios aqui
-#include "../EDs/ED01/ED01.h"
+// IMPOTACOES DOS EDs
+#include "importEDs.hpp"
 
 #include <vector>   // Para usar std::vector
 #include <functional> // Para usar std::function ou ponteiros de funcao
@@ -20,7 +20,7 @@ void executarExercicio(int edNum, int op) {
         case 1: {
             // Cria um vetor com os ponteiros para as funcoes da ED01.
             std::vector<FuncaoExercicio> funcoesED01 = {
-                &exercicio_01, &exercicio_02, &exercicio_03, &exercicio_04, &exercicio_05, &exercicio_06, &exercicio_07, &exercicio_08, &exercicio_09, &exercicio_10 // Adicione as outras aqui
+                &ex01ed01, &ex02ed01, &ex03ed01, &ex04ed01, &ex05ed01, &ex06ed01, &ex07ed01, &ex08ed01, &ex09ed01, &ex10ed01
             };
             // Verifica se a opcao e valida para este vetor.
             if (op >= 1 && op <= funcoesED01.size()) {
@@ -34,14 +34,21 @@ void executarExercicio(int edNum, int op) {
         }
 
         case 2: {
-            // Exemplo para a ED02
-            // std::vector<FuncaoExercicio> funcoesED02 = { &ed02_ex01, &ed02_ex02 };
-            // if (op >= 1 && op <= funcoesED02.size()) {
-            //     funcoesED02[op - 1]();
-            // } else {
-            //     printf("\nExercicio invalido para a ED02.\n");
-            // }
             printJPZ("404");
+            /*
+            // Cria um vetor com os ponteiros para as funcoes da ED02.
+            std::vector<FuncaoExercicio> funcoesED01 = {
+                &ex01ed02, &ex02ed02, &ex03ed02, &ex04ed02, &ex05ed02, &ex06ed02, &ex07ed02, &ex08ed02, &ex09ed02, &ex10ed02
+            };
+            // Verifica se a opcao e valida para este vetor.
+            if (op >= 1 && op <= funcoesED01.size()) {
+                // Chama a funcao usando o ponteiro no indice correto.
+                funcoesED01[op - 1](); // op-1 para converter (1-N) para (0 a N-1)
+            } else {
+                // Se o exercicio nao foi encontrado, mostra o 404.
+                printJPZ("404");
+            }
+            */
             break;
         }
 

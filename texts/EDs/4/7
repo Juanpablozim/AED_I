@@ -1,0 +1,6 @@
+07.) Incluir um metodo (Exemplo0417) para:
+ler uma sequencia de caracteres do teclado;
+mostrar a quantidade de digitos impares em uma cadeia de caracteres contados por uma funcao
+definida para receber uma cadeia de caracteres como parametro.
+DICA: Considerar o valor inteiro do codigo equivalente (type casting) para teste.
+Exemplo: sequencia = A1b2C3d4E5f6

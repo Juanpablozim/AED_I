@@ -1,6 +1,13 @@
-#include "../../../professor/2022-2_aed1_exemplos/io.hpp"
+// ed01.h
+#include "io.hpp"
 
-void exercicio_01(){
+// Garante que o codigo seja compativel com C e C++
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+void ex01ed01(){
     clrscr(); //limpa tela
     
     //identificar
@@ -20,12 +27,9 @@ void exercicio_01(){
     printf("\nLado = %d\nLado^2 * 7: %.1f\n", lado,area);
     
 /* FIM DO PROGRAMA PEDIDO */
-
-    //Encerrar
-    pauseScr("Aperte ENTER");
 }
 
-void exercicio_02(){
+void ex02ed01(){
     clrscr(); //limpa tela
     
     //identificar
@@ -46,12 +50,10 @@ void exercicio_02(){
     printf("\nLado/2 = %d\nArea: %.3f\t|\tPerimetro: %.1f\n", lado,area, perimetro);
     
 /* FIM DO PROGRAMA PEDIDO */
-    
-    //Encerrar
-    pauseScr("Aperte ENTER");
+
 }
 
-void exercicio_03(){
+void ex03ed01(){
     clrscr(); //limpa tela
     
     //identificar
@@ -73,12 +75,10 @@ void exercicio_03(){
     
 /* FIM DO PROGRAMA PEDIDO */
 
-    
-    //Encerrar
-    pauseScr("Aperte ENTER");
+
 }
 
-void exercicio_04(){
+void ex04ed01(){
     clrscr(); //limpa tela
     
     //identificar
@@ -101,12 +101,10 @@ void exercicio_04(){
     printf("\nx: %d\t|\ty:%d\nArea*3: %.1f\t|\tPerimetro: %.1f\n", x, y,area, perimetro);
     
 /* FIM DO PROGRAMA PEDIDO */
-    
-    //Encerrar
-    pauseScr("Aperte ENTER");
+
 }
 
-void exercicio_05(){
+void ex05ed01(){
     clrscr(); //limpa tela
     
     //identificar
@@ -124,12 +122,10 @@ void exercicio_05(){
     printf("\nBase: %.2f\t|\tALtura*2: %.2f\nArea: %.2f\n", base, altura, (base*altura/2));
 /* FIM DO PROGRAMA PEDIDO */
     
-    
-    //Encerrar
-    pauseScr("Aperte ENTER");
+
 }
 
-void exercicio_06(){
+void ex06ed01(){
     clrscr(); //limpa tela
     
     //identificar
@@ -146,12 +142,10 @@ void exercicio_06(){
     printf("\nLado/6: %.2f\t|\tALtura: %.2f\nArea: %.2f\t|\tPerimetro: %.2f\n", lado, (sqrt(3)*lado/2), (lado*sqrt(3)*lado/2/2), (lado*3));
 
 /* FIM DO PROGRAMA PEDIDO */
-    
-    //Encerrar
-    pauseScr("Aperte ENTER");
+
 }
 
-void exercicio_07(){
+void ex07ed01(){
     clrscr(); //limpa tela
     
     //identificar
@@ -168,12 +162,10 @@ void exercicio_07(){
     printf("\nLado*4: %.2f\nVolume: %.2f\n", lado, (pow(lado,3)));
 
 /* FIM DO PROGRAMA PEDIDO */
-    
-    //Encerrar
-    pauseScr("Aperte ENTER");
+
 }
 
-void exercicio_08(){
+void ex08ed01(){
     clrscr(); //limpa tela
     
     //identificar
@@ -191,12 +183,10 @@ void exercicio_08(){
     printf("\nComprimento/5: %.2f\t|\tLargura/5: %.2f\t|\tAltura/5: %.2f\nVolume: %.2f\n", comprimento, largura, altura, (comprimento*largura*altura));
 
 /* FIM DO PROGRAMA PEDIDO */
-    
-    //Encerrar
-    pauseScr("Aperte ENTER");
+
 }
 
-void exercicio_09(){
+void ex09ed01(){
     clrscr(); //limpa tela
     
     //identificar
@@ -211,12 +201,10 @@ void exercicio_09(){
     //SAIDA DE VALORES
     printf("\nRaio/2: %.2f\nArea: %.2f\n", raio, (2*M_PI*raio));
 /* FIM DO PROGRAMA PEDIDO */
-    
-    //Encerrar
-    pauseScr("Aperte ENTER");
+
 }
 
-void exercicio_10(){
+void ex10ed01(){
     clrscr(); //limpa tela
     
     //identificar
@@ -232,7 +220,9 @@ void exercicio_10(){
     printf("\nRaio*3/5: %.2f\nVolume: %.2f\n", raio, ((4 * M_PI * pow(raio, 3))/3));
 
 /* FIM DO PROGRAMA PEDIDO */
-    
-    //Encerrar
-    pauseScr("Aperte ENTER");
+
 }
+
+#ifdef __cplusplus
+}
+#endif

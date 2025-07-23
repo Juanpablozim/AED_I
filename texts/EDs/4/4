@@ -1,0 +1,5 @@
+04.) Incluir um metodo (Exemplo0414) para:
+ler uma sequencia de caracteres do teclado;
+mostrar as letras maiusculas menores que 'K' separadas por uma funcao
+definida para receber uma cadeia de caracteres como parametro.
+Exemplo: sequencia = AaKkLmM0*Nx

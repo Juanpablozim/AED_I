@@ -1,0 +1,5 @@
+01.) Incluir um metodo (Exemplo0411) para:
+ler dois valores reais para definir um intervalo fechado;
+ler certa quantidade de valores reais e
+contar quantos desses valores estao dentro do intervalo, e quantos estao fora dele.
+Exemplo: n = 10 e [ 14.2 : 23.1 ] com { 5.1, 10.5, 12.4, 14.2, 15.3, 18.3, 20.4, 21.7, 23.1, 24.2 }

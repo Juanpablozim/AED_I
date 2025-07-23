@@ -1,0 +1,5 @@
+E2.) Incluir um metodo (Exemplo04E2) para:
+ler duas cadeias de caracteres do teclado;
+calcular qual das duas sequencias possui a menor quantidade de digitos,
+por meio de uma funcao.
+Exemplo: sequencia = { A1b2, C3d4E5 }

@@ -1,0 +1,5 @@
+10.) Incluir um metodo (Exemplo0420) para:
+ler certa quantidade de cadeias de caracteres do teclado, uma por vez;
+mostrar e contar a quantidade de simbolos alfanumericos (letras e digitos) em cada palavra,
+por meio de uma funcao, e calcular o total acumulado de todas as palavras.
+Exemplo: sequencias = { (A1b2+C3d4)*E5f6, [P&&Q]||[R&&!S], (a<b&&b<c) }

@@ -1,0 +1,6 @@
+E1.) Incluir um metodo (Exemplo04E1) para:
+ler certa quantidade de cadeias de caracteres do teclado;
+contar a quantidade de simbolos alfanumericos, incluindo espacos em branco, em cada palavra,
+e calcular o total de todas as palavras, por meio de uma funcao.
+OBS.: Para a leitura incluir espacos em branco, usar IO_readln( ), ou gets( ), menos recomendado.
+Exemplo: sequencia = (A1b2 + C3d4) * E5f6

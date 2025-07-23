@@ -1,0 +1,5 @@
+02.) Incluir um metodo (Exemplo0412) para:
+ler uma sequencia de caracteres do teclado;
+contar e mostrar a quantidade de letras maiusculas menores que 'K'.
+DICA: Definir uma funcao para determinar se um caractere e letra maiuscula.
+Exemplo: sequencia = AaKkLmM0*Nx
