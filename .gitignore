@@ -1,0 +1,14 @@
+# Arquivos de log e de sistema
+*.log
+.DS_Store
+
+# Arquivos de compilacao e objetos
+*.o
+*.obj
+
+# Executaveis
+*.exe
+AED1EDs
+
+# Pasta de configuracao do VS Code
+.vscode/
